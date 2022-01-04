@@ -39,6 +39,7 @@ export default TrackCard;
 
 /** Track Card styled components */
 const CardContainer = styled(Link)({
+  textDecoration: 'none',
   borderRadius: 6,
   color: colors.text,
   backgroundSize: 'cover',
